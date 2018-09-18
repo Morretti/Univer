@@ -1,4 +1,4 @@
-package Sorts;
+package TA.Sorts;
 
 import java.io.*;
 
@@ -23,9 +23,8 @@ public class Sorts {
         stooge(array, 0, array.length-1);
     }
 
-    public static int quickSort(int [] array){
+    public static void quickSort(int [] array){
         quick(array,0,array.length-1);
-        return numOfAction;
     }
 
     public static void shakerSort(int[] array) {
@@ -54,6 +53,8 @@ public class Sorts {
         }
     }
 
+    public static void pancakeSort(int[] array){pancake(array,array.length);}
+
     private static void stooge(int[] array, int begin, int end) {
         if (array[end] < array[begin]) {
             int tmp = array[end];
@@ -76,7 +77,6 @@ public class Sorts {
         int wall = begin;
 
         for (int currentIndex = wall; currentIndex <= end; currentIndex++){
-            ++numOfAction;
             if(array[currentIndex] <= pivot){
                 if(wall < currentIndex) {
                     int tmp = array[currentIndex];
@@ -91,10 +91,37 @@ public class Sorts {
         int tmp = array[end];
         array[end] = array[wall];
         array[wall] = tmp;
-        ++numOfAction;
 
         quick(array,begin,wall-1);
         quick(array,wall,end);
     }
 
+    private static void pancake(int[] array, int end){
+        if (end < 2)
+            return;
+
+        int maxValue = array[0];
+        int maxValueIndex = 0;
+
+        for (int i = 0; i < end; i++) {
+            if(maxValue < array[i]) {
+                maxValue = array[i];
+                maxValueIndex = i;
+            }
+        }
+
+        for(int begin = 0, lastIndex = maxValueIndex; begin < lastIndex;++begin,--lastIndex){
+            int tmp = array[begin];
+            array[begin] = array[lastIndex];
+            array[lastIndex] = tmp;
+        }
+
+        for(int begin = 0, lastIndex = end-1; begin < lastIndex;++begin,--lastIndex){
+            int tmp = array[begin];
+            array[begin] = array[lastIndex];
+            array[lastIndex] = tmp;
+        }
+
+        pancake(array,--end);
+    }
 }
