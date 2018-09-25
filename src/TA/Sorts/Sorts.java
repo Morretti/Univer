@@ -24,7 +24,7 @@ public class Sorts {
     }
 
     public static void quickSort(int [] array){
-        quick(array,0,array.length-1);
+        quickWithRandomPivot(array,0,array.length-1);
     }
 
     public static void shakerSort(int[] array) {
@@ -74,6 +74,36 @@ public class Sorts {
             return;
 
         int pivot = array[end];
+        int wall = begin;
+
+        for (int currentIndex = wall; currentIndex <= end; currentIndex++){
+            if(array[currentIndex] <= pivot){
+                if(wall < currentIndex) {
+                    int tmp = array[currentIndex];
+                    array[currentIndex] = array[wall];
+                    array[wall] = tmp;
+                }
+                if (wall < end)
+                    wall++;
+            }
+        }
+
+        int tmp = array[end];
+        array[end] = array[wall];
+        array[wall] = tmp;
+
+        quick(array,begin,wall-1);
+        quick(array,wall,end);
+    }
+
+    private static void quickWithRandomPivot(int [] array, int begin, int end){
+        if(begin >= end)
+            return;
+
+        int pivotIndex = (int)(Math.random()*(array.length-1));
+        int pivot = array[pivotIndex];
+        //TODO Удалить sout
+        System.out.println("Опорная точка " + pivotIndex);
         int wall = begin;
 
         for (int currentIndex = wall; currentIndex <= end; currentIndex++){
