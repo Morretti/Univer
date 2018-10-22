@@ -89,7 +89,12 @@ public class HashTableArray<K, V> {
             hashTableArray.put((K)table[i].key,(V)table[i].value);
         }
 
-        table = hashTableArray.table;
+        Node[] newTable = new Node[table.length*2];
+
+        for(int i = 0; i < newTable.length; i++)
+            newTable[i] = hashTableArray.table[i];
+
+        this.table = newTable;
     }
 
     public V get(K key){

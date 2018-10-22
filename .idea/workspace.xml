@@ -7,14 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2973a842-28e9-4cc3-8e72-2e9824c3d367" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/Univer/TA/Coursework/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Univer/TA/Coursework/Strassen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Univer/TA/Coursework/first int 128x128" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Univer/TA/Coursework/first int 512x512" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Univer/TA/Coursework/second int 128x128" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Univer/TA/Coursework/second int 512x512" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/TA/Hash/HashTable.java" afterPath="$PROJECT_DIR$/src/TA/Hash/HashTable.java" />
-      <change beforePath="$PROJECT_DIR$/src/TA/Hash/Main.java" afterPath="$PROJECT_DIR$/src/TA/Hash/Main.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/TA/Hash/HashTableArray.java" afterPath="$PROJECT_DIR$/src/TA/Hash/HashTableArray.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,32 +20,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HashTableArray.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HashTableArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TA/Hash/HashTableArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="106" column="29" lean-forward="true" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
+            <state relative-caret-position="396">
+              <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
               <folding>
                 <element signature="method#HashTableArray#0;class#HashTableArray#0" expanded="false" />
                 <element signature="method#HashTableArray#1;class#HashTableArray#0" expanded="false" />
                 <element signature="class#Node#0;class#HashTableArray#0" expanded="false" />
                 <element signature="method#Node#0;class#Node#0;class#HashTableArray#0" expanded="false" />
+                <element signature="method#put#0;class#HashTableArray#0" expanded="false" />
                 <element signature="e#874#932#0" expanded="false" />
-                <element signature="method#moveTable#0;class#HashTableArray#0" expanded="false" />
                 <element signature="method#get#0;class#HashTableArray#0" expanded="false" />
+                <element signature="method#remove#0;class#HashTableArray#0" expanded="false" />
                 <element signature="method#print#0;class#HashTableArray#0" expanded="false" />
-                <element signature="e#3387#3388#0" expanded="true" />
-                <element signature="e#3435#3436#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TA/Hash/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="572">
+              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -60,8 +53,8 @@
       <file leaf-file-name="HashTable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TA/Hash/HashTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+            <state relative-caret-position="682">
+              <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
               <folding>
                 <element signature="class#Node#0;class#HashTable#0" expanded="false" />
                 <element signature="method#Node#0;class#Node#0;class#HashTable#0" expanded="false" />
@@ -76,7 +69,7 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TA/Hash/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
+            <state relative-caret-position="286">
               <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="method#Student#0;class#Student#0" expanded="false" />
@@ -132,9 +125,9 @@
         <option value="$PROJECT_DIR$/src/TA/Hash/Student.java" />
         <option value="$PROJECT_DIR$/src/TA/Hash/TaskWithNumbers.java" />
         <option value="$PROJECT_DIR$/src/TA/Hash/IntegerPlug.java" />
-        <option value="$PROJECT_DIR$/src/TA/Hash/HashTableArray.java" />
         <option value="$PROJECT_DIR$/src/TA/Hash/HashTable.java" />
         <option value="$PROJECT_DIR$/src/TA/Hash/Main.java" />
+        <option value="$PROJECT_DIR$/src/TA/Hash/HashTableArray.java" />
       </list>
     </option>
   </component>
@@ -168,6 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -198,7 +192,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
@@ -456,11 +449,13 @@
       <workItem from="1539679873614" duration="138000" />
       <workItem from="1539680389757" duration="265000" />
       <workItem from="1540210504567" duration="10713000" />
+      <workItem from="1540235192961" duration="69000" />
+      <workItem from="1540235336812" duration="119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68923000" />
+    <option name="totallyTimeSpent" value="69111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,25 +477,25 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29276314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29276314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23903178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24659607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37664473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37664473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -707,20 +702,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DerivedClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DerivedClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/BaseClass.java" />
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -764,104 +747,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TA/Coursework/first int 512x512">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2288">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TA/Coursework/second int 512x512">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TA/Coursework/first int 512x512" />
+    <entry file="file://$PROJECT_DIR$/src/TA/Coursework/second int 512x512" />
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="158" column="17" lean-forward="false" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
-          <folding>
-            <element signature="docComment;class#Map#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#containsKey#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#containsValue#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#put#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#putAll#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#keySet#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#values#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#entrySet#0;class#Map#0" expanded="false" />
-            <element signature="docComment;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#getKey#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#getValue#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#setValue#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#comparingByKey#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="method#comparingByKey#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#comparingByValue#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="method#comparingByValue#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#comparingByKey#1;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="method#comparingByKey#1;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#comparingByValue#1;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="method#comparingByValue#1;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#getOrDefault#0;class#Map#0" expanded="false" />
-            <element signature="method#getOrDefault#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#forEach#0;class#Map#0" expanded="false" />
-            <element signature="method#forEach#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#replaceAll#0;class#Map#0" expanded="false" />
-            <element signature="method#replaceAll#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#putIfAbsent#0;class#Map#0" expanded="false" />
-            <element signature="method#putIfAbsent#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#remove#1;class#Map#0" expanded="false" />
-            <element signature="method#remove#1;class#Map#0" expanded="false" />
-            <element signature="docComment;method#replace#0;class#Map#0" expanded="false" />
-            <element signature="method#replace#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#replace#1;class#Map#0" expanded="false" />
-            <element signature="method#replace#1;class#Map#0" expanded="false" />
-            <element signature="docComment;method#computeIfAbsent#0;class#Map#0" expanded="false" />
-            <element signature="method#computeIfAbsent#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#computeIfPresent#0;class#Map#0" expanded="false" />
-            <element signature="method#computeIfPresent#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#compute#0;class#Map#0" expanded="false" />
-            <element signature="method#compute#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#merge#0;class#Map#0" expanded="false" />
-            <element signature="method#merge#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#of#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#of#1;class#Map#0" expanded="false" />
-            <element signature="docComment;method#of#2;class#Map#0" expanded="false" />
-            <element signature="docComment;method#of#3;class#Map#0" expanded="false" />
-            <element signature="method#of#3;class#Map#0" expanded="false" />
-            <element signature="docComment;method#of#4;class#Map#0" expanded="false" />
-            <element signature="method#of#4;class#Map#0" expanded="false" />
-            <element signature="docComment;method#of#5;class#Map#0" expanded="false" />
-            <element signature="method#of#5;class#Map#0" expanded="false" />
-            <element signature="docComment;method#of#6;class#Map#0" expanded="false" />
-            <element signature="method#of#6;class#Map#0" expanded="false" />
-            <element signature="docComment;method#of#7;class#Map#0" expanded="false" />
-            <element signature="method#of#7;class#Map#0" expanded="false" />
-            <element signature="docComment;method#of#8;class#Map#0" expanded="false" />
-            <element signature="method#of#8;class#Map#0" expanded="false" />
-            <element signature="docComment;method#of#9;class#Map#0" expanded="false" />
-            <element signature="method#of#9;class#Map#0" expanded="false" />
-            <element signature="docComment;method#of#10;class#Map#0" expanded="false" />
-            <element signature="method#of#10;class#Map#0" expanded="false" />
-            <element signature="docComment;method#ofEntries#0;class#Map#0" expanded="false" />
-            <element signature="e#72546#72558#0" expanded="false" />
-            <element signature="method#ofEntries#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#entry#0;class#Map#0" expanded="false" />
-            <element signature="method#entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#copyOf#0;class#Map#0" expanded="false" />
-            <element signature="method#copyOf#0;class#Map#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,55 +760,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="145" column="25" lean-forward="true" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
-          <folding>
-            <element signature="e#4990#4991#0" expanded="false" />
-            <element signature="e#5036#5037#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TA/Coursework/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TA/Coursework/Strassen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="172" column="1" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="172" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Experiment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TA/Coursework/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/TA/Coursework/Strassen.java" />
+    <entry file="file://$PROJECT_DIR$/src/Experiment.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="1188" column="22" lean-forward="false" selection-start-line="1188" selection-start-column="22" selection-end-line="1188" selection-end-column="22" />
-          <folding>
-            <element signature="e#45258#45259#0" expanded="false" />
-            <element signature="e#45304#45305#0" expanded="false" />
-            <element signature="e#45598#45599#0" expanded="false" />
-            <element signature="e#45626#45627#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,10 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="2786" column="25" lean-forward="false" selection-start-line="2786" selection-start-column="25" selection-end-line="2786" selection-end-column="25" />
-          <folding>
-            <element signature="e#112071#112072#0" expanded="true" />
-            <element signature="e#112133#112134#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="5108" column="30" lean-forward="true" selection-start-line="5108" selection-start-column="30" selection-end-line="5108" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,29 +811,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TA/Hash/HashTableArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="106" column="29" lean-forward="true" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
-          <folding>
-            <element signature="method#HashTableArray#0;class#HashTableArray#0" expanded="false" />
-            <element signature="method#HashTableArray#1;class#HashTableArray#0" expanded="false" />
-            <element signature="class#Node#0;class#HashTableArray#0" expanded="false" />
-            <element signature="method#Node#0;class#Node#0;class#HashTableArray#0" expanded="false" />
-            <element signature="e#874#932#0" expanded="false" />
-            <element signature="method#moveTable#0;class#HashTableArray#0" expanded="false" />
-            <element signature="method#get#0;class#HashTableArray#0" expanded="false" />
-            <element signature="method#print#0;class#HashTableArray#0" expanded="false" />
-            <element signature="e#3387#3388#0" expanded="true" />
-            <element signature="e#3435#3436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TA/Hash/HashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+        <state relative-caret-position="682">
+          <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
           <folding>
             <element signature="class#Node#0;class#HashTable#0" expanded="false" />
             <element signature="method#Node#0;class#Node#0;class#HashTable#0" expanded="false" />
@@ -998,7 +827,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TA/Hash/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="286">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="method#Student#0;class#Student#0" expanded="false" />
@@ -1013,9 +842,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TA/Hash/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="572">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TA/Hash/HashTableArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+          <folding>
+            <element signature="method#HashTableArray#0;class#HashTableArray#0" expanded="false" />
+            <element signature="method#HashTableArray#1;class#HashTableArray#0" expanded="false" />
+            <element signature="class#Node#0;class#HashTableArray#0" expanded="false" />
+            <element signature="method#Node#0;class#Node#0;class#HashTableArray#0" expanded="false" />
+            <element signature="method#put#0;class#HashTableArray#0" expanded="false" />
+            <element signature="e#874#932#0" expanded="false" />
+            <element signature="method#get#0;class#HashTableArray#0" expanded="false" />
+            <element signature="method#remove#0;class#HashTableArray#0" expanded="false" />
+            <element signature="method#print#0;class#HashTableArray#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
