@@ -7,6 +7,10 @@ public class HashTable<K, V> {
         table = new Node[16];
     }
 
+    public HashTable(int length){
+        table = new Node[length];
+    }
+
     private class Node<K, V>{
         K key;
         V value;
@@ -87,8 +91,8 @@ public class HashTable<K, V> {
         int i = 0;
 
         for(Node node : table){
-            if(node == null)
-                System.out.print("table["+(i++)+"] = null");
+            if(node == null){}
+//                System.out.print("table["+(i++)+"] = null");
             else System.out.print("table["+(i++)+"] = ");
             while (node != null){
                 System.out.print(node.key+" - "+node.value+" ");

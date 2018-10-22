@@ -20,5 +20,25 @@ public class Main {
 
         group.print();
         System.out.println();
+
+        System.out.println(group.get(17));
+
+        group.remove(17);
+        group.print();
+
+
+//        HashTableArray<Integer,Student>group = new HashTableArray<>();
+//
+//        for(Student student : students){
+//            group.put(student.getId(),student);
+//        }
+//
+//        group.print();
+//        System.out.println();
+//
+//        System.out.println(group.get(17));
+//        group.remove(17);
+//
+//        group.print();
     }
 }
