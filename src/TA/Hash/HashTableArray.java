@@ -32,6 +32,7 @@ public class HashTableArray<K, V> {
     }
 
     public void put(K key, V value){
+
         if (taken == table.length)
             moveTable(table);
 
