@@ -100,28 +100,34 @@ public class HashTableArray<K, V> {
 
     public V get(K key){
         int i = key.hashCode() % table.length;
+        int iterations = 0;//добавленно
+        while (iterations < table.length) {
+            if(table[i] != null)//было true
+                if (key.hashCode() == table[i].key.hashCode())
+                    if (key.equals(table[i].key))
+                        return (V) table[i].value;
 
-        while (true) {
-            if (key.hashCode() == table[i].key.hashCode())
-                if (key.equals(table[i].key))
-                    return (V) table[i].value;
-
-            i = i + secondHash(key) % table.length;
+            i = (i + secondHash(key)) % table.length;
+            ++iterations;//добавленно
         }
+        return null;
     }
 
     public void remove(K key){
         int i = key.hashCode() % table.length;
 
-        while (true) {
-            if (key.hashCode() == table[i].key.hashCode())
-                if (key.equals(table[i].key)) {
-                    table[i] = null;
-                    --taken;
-                    return;
-                }
+        int iterations = 0;
+        while (iterations < table.length) {
+            if(table[i] != null)
+                if (key.hashCode() == table[i].key.hashCode())
+                    if (key.equals(table[i].key)) {
+                        table[i] = null;
+                        --taken;
+                        return;
+                    }
 
             i = i + secondHash(key) % table.length;
+            ++iterations;
         }
     }
 

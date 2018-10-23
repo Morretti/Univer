@@ -24,7 +24,7 @@ public class HashTable<K, V> {
         //Поиск дубликата
         while (tmp != null) {
 
-            if(tmp.key == null) {
+            if (tmp.key == null) {
                 tmp = tmp.next;
                 continue;
             }
@@ -41,12 +41,12 @@ public class HashTable<K, V> {
 
         Node entry = new Node(key, value);
 
-        if(index == 0 && table[index] != null){
-            if(table[index].key == null){
+        if (index == 0 && table[index] != null) {
+            if (table[index].key == null) {
                 entry.next = table[index].next;
                 table[index].next = entry;
             }
-        }else {
+        } else {
             entry.next = table[index];
             table[index] = entry;
         }
@@ -56,25 +56,25 @@ public class HashTable<K, V> {
         Node tmp = table[0];
 
         while (tmp != null) {
-            if(tmp.key == null) {
+            if (tmp.key == null) {
                 tmp.value = value;
                 return;
             }
             tmp = tmp.next;
         }
 
-        tmp = new Node(null,value);
+        tmp = new Node(null, value);
         tmp.next = table[0];
         table[0] = tmp;
     }
 
     public V get(K key) {
-        if(key == null){
+        if (key == null) {
             Node tmp = table[0];
 
-            while (tmp != null){
-                if(tmp.key == null)
-                    return (V)tmp.value;
+            while (tmp != null) {
+                if (tmp.key == null)
+                    return (V) tmp.value;
                 tmp = tmp.next;
             }
         }
@@ -96,19 +96,20 @@ public class HashTable<K, V> {
     }
 
     public void remove(K key) {
-        if(key == null){
+        if (key == null) {
             Node tmp = table[0];
 
-            if(tmp != null)
-                if(tmp.key == null)
+            if (tmp != null)
+                if (tmp.key == null)
                     table[0] = tmp.next;
 
-            while (tmp.next != null){
-                if(tmp.next.key == null)
+            while (tmp.next != null) {
+                if (tmp.next.key == null)
                     tmp.next = tmp.next.next;
 
                 tmp = tmp.next;
             }
+            return;
         }
 
         int index = key.hashCode() % table.length;
@@ -116,19 +117,22 @@ public class HashTable<K, V> {
         Node tmp = table[index];
 
         //Если удаляем первый элемент в цепи
-        if (tmp.key.hashCode() == key.hashCode()) {
-            if (tmp.key.equals(key)) {
-                table[index] = tmp.next;
-                return;
-            }
-        }
+        if (tmp != null) {
+            if (tmp.key != null)
+                if (tmp.key.hashCode() == key.hashCode()) {
+                    if (tmp.key.equals(key)) {
+                        table[index] = tmp.next;
+                        return;
+                    }
+                }
 
-        while (tmp.next != null) {
-            if (tmp.next.key.hashCode() != key.hashCode())
-                tmp = tmp.next;
-            else {
-                if (tmp.next.key.equals(key)) {
-                    tmp.next = tmp.next.next;
+            while (tmp.next != null) {
+                if (tmp.next.key.hashCode() != key.hashCode())
+                    tmp = tmp.next;
+                else {
+                    if (tmp.next.key.equals(key)) {
+                        tmp.next = tmp.next.next;
+                    }
                 }
             }
         }
