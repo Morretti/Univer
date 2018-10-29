@@ -24,15 +24,10 @@ public class IntegerPlug {
         this.hash = hash;
     }
 
-    //    public int hashCode(int size){
-//        double A=0.618033;
-//        int n = size;
-//        int k = value;
-//        double drob = (k*A) - ((int) (k*A));
-//        int result = (int)(n*drob);
-//
-//        return result;
-//    }
+    @Override
+    public int hashCode(){
+        return 31*value;
+    }
 
     @Override
     public String toString(){

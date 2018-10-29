@@ -165,4 +165,22 @@ public class HashTable<K, V> {
             this.value = value;
         }
     }
+
+    public int collions(){
+        int count = 0;
+        for(int i = 0; i < table.length; i++){
+            Node tmp = table[i];
+            while (tmp != null){
+                if(tmp.next != null){
+                    ++count;
+                }
+                tmp = tmp.next;
+            }
+        }
+        return count;
+    }
+
+    public int size(){
+        return table.length;
+    }
 }

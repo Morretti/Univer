@@ -173,4 +173,8 @@ public class HashTable_1<K> {
 
         return result;
     }
+
+    public int size(){
+        return table.length;
+    }
 }
