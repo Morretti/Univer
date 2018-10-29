@@ -22,9 +22,9 @@ public class Main {
 //
 //        group.print();
 //        System.out.println();
-//
+
 //        System.out.println(group.get(17));
-//
+
 //        group.remove(17);
 //        group.print();
 
