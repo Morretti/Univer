@@ -16,7 +16,7 @@ public class Prim {
         primMST(graph,weight,mst);
 
         for (int i = 1; i < graph.length; i++){
-            System.out.println(i + " - " + mst[i] + "\t\tweight: " + weight[i]);
+            System.out.println(i + " -> " + mst[i] + "\t\tweight: " + weight[i]);
         }
 
     }

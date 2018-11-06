@@ -2,13 +2,13 @@ package TA.Graph;
 
 public class Dijkstra {
     public static void main(String[] args) {
-        int [][] graph = {  {0, 7, 0, 5, 0, 0,0},
-                            {7, 0, 8, 9, 7, 0,0},
-                            {0, 8, 0, 0, 5, 0,0},
-                            {5, 9, 0, 0,15, 6,0},
-                            {0, 7, 5,15, 0, 8,9},
+        int [][] graph = {  {0, 7, 0, 5, 0, 0, 0},
+                            {7, 0, 8, 9, 7, 0, 0},
+                            {0, 8, 0, 0, 5, 0, 0},
+                            {5, 9, 0, 0,15, 6, 0},
+                            {0, 7, 5,15, 0, 8, 9},
                             {0, 0, 0, 6, 8, 0,11},
-                            {0, 0, 0, 0, 9,11,0},};
+                            {0, 0, 0, 0, 9,11, 0},};
 
 
         int[] result = dijkstra(graph,0);
@@ -45,10 +45,15 @@ public class Dijkstra {
         distance[source] = 0;
 
         for(int i = 0; i < graph.length-1; i++){
+            //Ищем вершину на минимальном расстоянии
             minDistanceIndex = minDistance(distance, used);
+            //Помечаем ее как посещенную
             used[minDistanceIndex] = true;
 
             for (int j = 0; j < graph.length; j++) {
+                //Если вершина не посещенная и рассояние до нее не равно 0 и расстояние от источника
+                //конечно и расстояние до этой вершины не больше расстояния от источника
+                //до предыдущей - записываем расстояние до новой вершины
                 if(!used[j] && graph[minDistanceIndex][j] != 0
                         && distance[minDistanceIndex] != Integer.MAX_VALUE
                         && distance[minDistanceIndex] + graph[minDistanceIndex][j] < distance[j])

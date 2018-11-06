@@ -10,17 +10,31 @@ public class Kruskal {
                             {0,0,0,6,8,0,11},
                             {0,0,0,0,9,11,0},};
 
-        kruskal(graph);
+        int[] result = new int[graph.length];
+        int[] weight = new int[graph.length];
+
+        kruskal(graph,result,weight);
+
+        System.out.println("Связи\t\tВес");
+        for (int i = 0; i < result.length-1; i++) {
+            System.out.println(i + " -> " + result[i] + "\t\t" + weight[i]);
+        }
     }
 
-    static void kruskal(int[][] graph){
+    static void kruskal(int[][] graph,int[] result,int[] resultWeight){
         int[] weight;
         int[] source;
         int[] destination;
-        int[] setOfUsingVertices = new int[graph.length];
+        int[] connections = new int[graph.length];
+        boolean[] checked = new boolean[graph.length];
+//        int[] result = new int[graph.length];
+//        int[] resultWeight = new int[graph.length];
         int edges = 0;
+        int connectionOrder = 1;
+
 
         for (int i = 0; i < graph.length; i++){
+            resultWeight[i] = Integer.MAX_VALUE;
             for (int j = 0; j < graph.length; j++){
                 if (graph[i][j] != 0){
                     graph[j][i] = 0;
@@ -63,11 +77,40 @@ public class Kruskal {
         }
 
 
+        //Основная часть
 
-//        for(int i = 0; i < weight.length; i++){
-//            System.out.println(weight[i] + "\t" + source[i] + "\t" + destination[i]);
+        int added = 0;
+        for (int i = 0; i < edges; i++) {
+            if(!isCycled(connections,source[i],destination[i])){
+                if(weight[i] < resultWeight[source[i]] || !checked[source[i]]) {
+                    if(added >= graph.length-1)
+                        break;
+
+                    result[source[i]] = destination[i];
+                    resultWeight[source[i]] = weight[i];
+                    connections[source[i]] = connectionOrder;
+                    connections[destination[i]] = connectionOrder++;
+                    checked[source[i]] = true;
+
+                    ++added;
+                }
+            }
+        }
+
+
+        for(int i = 0; i < weight.length; i++){
+            System.out.println(weight[i] + "\t" + source[i] + "\t" + destination[i]);
+        }
+
+//        System.out.println("Связи\t\tВес");
+//        for (int i = 0; i < result.length; i++) {
+//            System.out.println(i + " -> " + result[i] + "\t\t" + weight[i]);
 //        }
     }
 
-
+    private static boolean isCycled(int[] connectionOrder, int source, int destination) {
+        if ((connectionOrder[source] == connectionOrder[destination]) && connectionOrder[source] != 0)
+            return true;
+        else return false;
+    }
 }
